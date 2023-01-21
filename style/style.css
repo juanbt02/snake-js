@@ -1,0 +1,49 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container-game{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #578A34;
+    border: 2px solid black;
+}
+
+.head-game{
+    display: flex;
+    flex-direction: row;
+    background-color: #4A752C;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+}
+
+.head-game img{
+    width: 45px;
+    height: 45px;
+}
+
+.head-game p{
+    margin-right: 6%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container-gameaction{
+    background-color: #AAD751;
+    width: 600px;
+    height: 440px;
+}
+
+.apple{
+    width: 40px;
+    height: 40px;
+}
